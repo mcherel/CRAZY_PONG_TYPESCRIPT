@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx", // If using JSX syntax
+        "module": "esnext",
+        "target": "es2015",
+        "strict": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node"
+    }
+}
