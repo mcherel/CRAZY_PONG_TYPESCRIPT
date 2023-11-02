@@ -186,8 +186,8 @@ function obstacleCollision(ball, obstacle, player) {
         if (player === user)
             hexColor != user.color ? com.color = colorPlayer2 = hexColor : obstacleCollision(ball, obstacle, player);
         if (player === com)
-        hexColor != com.color ? user.color = colorPlayer1 = hexColor : obstacleCollision(ball, obstacle, player);
-        console.log(hexColor);
+            hexColor != com.color ? user.color = colorPlayer1 = hexColor : obstacleCollision(ball, obstacle, player);
+        //console.log(hexColor);
     }
 }
 
